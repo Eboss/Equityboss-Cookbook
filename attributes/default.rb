@@ -1,0 +1,1 @@
+default['eq']['system_user'] = 'vagrant'
