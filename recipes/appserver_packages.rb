@@ -1,5 +1,10 @@
 #VIRTUALENV_PATH = "/home/vagrant/eq_ve"
 
+include_recipe "python::default"
+include_recipe "apt::default"
+include_recipe "equityboss::base_packages"
+include_recipe "postgresql::client"
+
 python_pip "django" do
   version "1.5.1"
   #virtualenv VIRTUALENV_PATH
