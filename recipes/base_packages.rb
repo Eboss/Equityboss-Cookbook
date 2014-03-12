@@ -11,6 +11,8 @@
 #   #group "ubuntu"
 #   action :create
 # end
+include_recipe "apt::default"
+include_recipe "python::default"
 
 package "python-dev"
 package "git"
