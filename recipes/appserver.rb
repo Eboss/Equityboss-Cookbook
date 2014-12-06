@@ -33,7 +33,6 @@ end
 
 package "gunicorn"
 
-
 # python_pip "" do
 #   version ""
 #   virtualenv VIRTUALENV_PATH
